@@ -1,0 +1,31 @@
+<!--
+  Generated template for the OrdersPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>  
+  <img src="assets/img/logo.PNG">
+</ion-header>
+
+
+<ion-content padding>
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content>???</ion-refresher-content>
+  </ion-refresher>
+
+  <ion-list *ngFor="let order of orders">
+    <ion-row>
+    <ion-item-sliding>
+      <button ion-item no-lines   (click)='displayDetails($event, order)'>
+        <b>{{order.company}}</b>
+        <p>{{order.contactName}}({{order.email}})</p>
+        <p item-end>{{order.date}}</p>
+      </button>
+      <ion-item-options side="left">            
+                <button ion-button color="danger" (click)='deleteOrder(order.id)'><ion-icon name="trash"></ion-icon></button>
+            </ion-item-options>            
+    </ion-item-sliding>
+    </ion-row>
+  </ion-list>
+</ion-content>

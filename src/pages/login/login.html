@@ -1,0 +1,33 @@
+<ion-header class="item no-padding">  
+  <img src="assets/img/logo.PNG">
+</ion-header>
+
+
+<ion-content padding>
+    
+    <ion-grid style="height: 100%">
+        <ion-row justify-content-center align-items-center style="height: 100%">
+            <ion-list inset>
+
+                <ion-item>
+                    <ion-label>Username</ion-label>
+                    <ion-input name="email" type="text" [(ngModel)]='email' placeholder='mpi3@gmail.com'></ion-input>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label>Password</ion-label>
+                    <ion-input type="password" [(ngModel)]='password' name='password' placeholder="*******"></ion-input>
+                </ion-item>
+
+                <ion-item>
+                    <button ion-button block (click)='doLogin()'>Login(FSE)</button>         
+                    <button ion-button block color="light" (click)='openPage()'>Sign Up(test offline/mobile)</button>
+                </ion-item>
+
+            </ion-list>
+        </ion-row>
+        <ion-item class="item no-padding">                          
+            <button ion-button block color="danger" (click)='openCustomerPage()'>Login as TestUser(Customer)</button>
+        </ion-item>        
+    </ion-grid>  
+</ion-content>

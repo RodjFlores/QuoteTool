@@ -1,0 +1,67 @@
+[
+  {
+    "DESCRIPTION": "PM - CR SYSTEM",
+    "PRICE": 2000,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "PM - DR SYSTEM",
+    "PRICE": 2000,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "PM - ADDITIONAL SYSTEM",
+    "PRICE": 1000,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "PM - DRY PRO",
+    "PRICE": 2000,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "LICENSE TRANSFER FEE",
+    "PRICE": 499.99,
+    "PRODUCT CODE": "5900979-LTF"
+  },
+  {
+    "DESCRIPTION": "ONE HOUR OF LABOR",
+    "PRICE": 390,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "ONE DAY OF LABOR",
+    "PRICE": 2000,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "ONE HOUR OF TRAVEL",
+    "PRICE": 235,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "ONE DAY OF APPLICATIONS",
+    "PRICE": 2300,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "SYSTEM DE-INSTALL/RE-INSTAL (M-F 8:30~5:30)",
+    "PRICE": 2000,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "STUDY COMBINE/MOVE LICENSE",
+    "PRICE": 1497,
+    "PRODUCT CODE": 8001762
+  },
+  {
+    "DESCRIPTION": "LICENSE PROMOTION (TO SHOW VALUE)",
+    "PRICE": 1497,
+    "PRODUCT CODE": "N/A"
+  },
+  {
+    "DESCRIPTION": "Other",
+    "PRICE": 100,
+    "PRODUCT CODE": ""
+  }
+]

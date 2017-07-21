@@ -1,0 +1,59 @@
+<!--
+  Generated template for the CustomerRequestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Request Form</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list-header><b>Customer Information</b></ion-list-header>
+  <ion-list>
+    <ion-item>
+      <ion-label color="primary" >Site Name</ion-label>
+      <ion-input placeholder="" name="siteName" [(ngModel)]="siteName"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary"  >Contact Name</ion-label>
+      <ion-input name="contactName" [(ngModel)]="contactName"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label color="primary" >Phone</ion-label>
+      <ion-input name="phone" [(ngModel)]="phone"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" >Email</ion-label>
+      <ion-input name="email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list-header><b>Request Details</b></ion-list-header>
+  <ion-list>
+    <ion-item>
+      <ion-label color="primary">Site ID</ion-label>
+      <ion-input name="siteId" [(ngModel)]="siteId"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" >Product Serial</ion-label>
+      <ion-input name="serial" [(ngModel)]="serial"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" >Ticket Number</ion-label>
+      <ion-input name="tickerNum" [(ngModel)]="tickerNum"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list-header><b>Comments</b></ion-list-header>
+  <ion-item>
+    <textarea  name="comment" [(ngModel)]="comment" placeholder="Write Comments here" clearInput></textarea >
+  </ion-item>
+  <br>
+  <button ion-button (click)='send()'block>Send Request</button>
+  
+</ion-content>
